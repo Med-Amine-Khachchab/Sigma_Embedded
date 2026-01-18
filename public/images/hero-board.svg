@@ -1,0 +1,17 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="520" rx="32" fill="#0E141B"/>
+  <rect x="40" y="40" width="640" height="440" rx="28" fill="#0B0E13" stroke="#38F2FF" stroke-opacity="0.2" stroke-width="2"/>
+  <g stroke="#38F2FF" stroke-opacity="0.35">
+    <path d="M120 140H300V220H500" stroke-width="3"/>
+    <path d="M200 320H480" stroke-width="2"/>
+    <path d="M120 380H260V420" stroke-width="3"/>
+    <path d="M420 160H600V260" stroke-width="2"/>
+    <circle cx="120" cy="140" r="8" fill="#38F2FF"/>
+    <circle cx="500" cy="220" r="6" fill="#38F2FF"/>
+    <circle cx="480" cy="320" r="6" fill="#64FF8F"/>
+    <circle cx="260" cy="420" r="6" fill="#38F2FF"/>
+    <circle cx="600" cy="260" r="6" fill="#64FF8F"/>
+  </g>
+  <text x="80" y="100" fill="#64FF8F" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="600">SIGMA EMBEDDED</text>
+  <text x="80" y="132" fill="#9FB3C8" font-family="Space Grotesk, sans-serif" font-size="14">Firmware / RTOS / Hardware Co-design</text>
+</svg>
