@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-midnight text-white antialiased;
+  background-image: radial-gradient(circle at top, rgba(56, 242, 255, 0.08), transparent 50%),
+    linear-gradient(180deg, #0b0e13 0%, #0b0e13 40%, #0d1118 100%);
+}
+
+.pcb-pattern {
+  background-image: linear-gradient(transparent, transparent),
+    radial-gradient(circle at 1px 1px, rgba(56, 242, 255, 0.1) 1px, transparent 0);
+  background-size: 100% 100%, 28px 28px;
+}
+
+.glow-card {
+  box-shadow: 0 0 35px rgba(56, 242, 255, 0.08);
+}
+
+input, textarea, select {
+  @apply focus:outline-none focus:ring-2 focus:ring-neon/40;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  color: #fff;
+}
